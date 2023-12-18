@@ -1,0 +1,73 @@
+.card-service {
+  margin: 10px;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 350px; /* Atur lebar maksimum kartu */
+  text-align: center;
+  height: 300px; /* Atur tinggi tetap untuk kartu */
+  overflow: hidden; /* Menyembunyikan konten yang lebih panjang dari tinggi tetap */
+  box-shadow: 4px 4px 15px 5px rgba(0, 0, 0, 0.16);
+}
+
+.card-img {
+  width: 80%;
+  height: auto;
+
+}
+
+.button-more {
+  background: #958874;
+  color: #f4f0f0;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+/* CSS untuk membuat kartu lebih responsif */
+@media (max-width: 768px) {
+  .card-service {
+    max-width: 100%;
+  }
+}
+
+
+/* Gaya untuk baris kartu (Cardservice) */
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Gaya untuk setiap kartu (Cardservice) */
+.card-service {
+    margin: 10px;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    height: 300px;
+    overflow: hidden;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+}
+
+.button-more {
+    background: #958874;
+    color: #F4F0F0;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* CSS untuk membuat kartu lebih responsif */
+@media (max-width: 768px) {
+    .card-service {
+        max-width: 100%;
+    }
+}
